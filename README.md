@@ -4,7 +4,7 @@ Een API programma dat weerinformatie voor locaties in Nederland ophaalt
 Data is taken from https://weerlive.nl
 
 This program asks the user to input a placename. 
-The program will check if the name is a valid location in the Netherlands that is covered by the API.
+The program checks if the name is a valid location in the Netherlands that is covered by the API.
 If so, the program will retrieve several points of data about the current weather at the location. 
 The data is then shown to the user, and also saved to a .txt file in a subfolder. The .txt filename will include the location and the time and date of the data it retrieved.
 
